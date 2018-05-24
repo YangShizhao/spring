@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Oauth2Resource/Oauth2Resource.iml" filepath="$PROJECT_DIR$/Oauth2Resource/Oauth2Resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oauth2Server/Oauth2Server.iml" filepath="$PROJECT_DIR$/Oauth2Server/Oauth2Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register/register.iml" filepath="$PROJECT_DIR$/register/register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
+    </modules>
+  </component>
+</project>

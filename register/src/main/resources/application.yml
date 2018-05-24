@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-register-test
+server:
+  port: 10001
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
