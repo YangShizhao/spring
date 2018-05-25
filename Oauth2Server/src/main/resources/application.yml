@@ -1,9 +1,16 @@
 spring:
   application:
     name: spring-service-oauth2Server
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:h2:./h2Data/auth
+    driver-class-name: org.h2.Driver
 server:
   port: 20000
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:10001/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:10001/eureka/
